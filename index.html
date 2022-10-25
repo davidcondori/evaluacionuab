@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Uab</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="iconos.css">
+     <script >
+        function eurosDolares(valNum) {
+  document.getElementById("inputDolares").value=valNum*0.14487867;
+}
+function dolaresBoliviano(valNum) {
+  document.getElementById("inputBoliviano").value=valNum*6.9023274;
+}
+
+function login(){
+    var user;
+    user=document.getElementById("usuario").value;
+
+    if(user=="dcondori"){
+        window.location="login.html";
+
+    }
+
+}
+     </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+           <ul>
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Contacto</a></li>
+           </ul> 
+        </nav>
+        <!--carusel-->
+    <div>
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="img/cang1.jpg" >
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/cang2.jpg">
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/cang3.jpg">                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--login-->
+    <div class="wrapper">
+    <div class="box">
+    <div class="articulo">
+    <div class="login-container">
+        <div class="Iniciar">
+          <h3>Iniciar sesion</h3>
+          <form action="">
+            <input type="text" name="usuario" id="usuario" placeholder="usuario" >
+            <a class="botton"  value="Iniciar sesion" id="botton" onclick="login()"> Iniciar</a>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <div class="boxx">
+     <img class="imagen" src="img/shutterstock_256752703-1280x720.jpg">
+    </div>
+    <div class="boxxx">
+        <div><h2><br/>CANGREJOS</h2></div>
+        <div><h4><br/>Los cangrejos son los crustáceos más populares de este planeta. Ya sea por su divertida forma de caminar de lado o por sus curiosas pinzas con las que se defienden, son uno de los animales que más simpatía despiertan. En este artículo le ofrecemos toda la información sobre estos decápodos con diez patas.</h4></div>
+    </div>
+   </div>
+    
+   <div>
+        <div class="art1">
+        <div class="lista-imagen">
+            <span class="icon-facebook"> facebook</span><br/>
+            <span class="icon-whatsapp"> whatsapp</span><br/>
+            <span class="icon-twitter"> twitter</span><br/>
+            <samp class="icon-youtube2" > youtube</samp>
+           
+        </div>
+        </div>
+        <div class="art2">
+        <h2>CARACTERISTICAS</h2>
+        <H4><br/>Los cangrejos, como todos los crustáceos, se caracterizan por tener un exoesqueleto compuesto de quitina que actúa como un verdadero caparazón que les protege. Poseen cinco pares de patas, de las cuales, una de cada lado, han evolucionado hasta convertirse en pinzas que utilizan para alimentarse, para el cortejo y para defenderse de sus depredadores.</H4>
+    </div>
+        <div class="art3">
+            <script>
+                
+            </script>
+            <h3 >Conversor de moneda.</h3>
+            <p>
+            <label>Boliviano</label>
+            <input id="inputBoliviano" type="number" placeholder="Boliviano" oninput="eurosDolares(this.value)" onchange="eurosDolares(this.value)">
+          </p>
+          <p>
+            <label>Dolares</label>
+            <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresBoliviano(this.value)" onchange="dolaresBoliviano(this.value)">
+          </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

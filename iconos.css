@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2m2gqt');
+  src:  url('fonts/icomoon.eot?2m2gqt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2m2gqt') format('truetype'),
+    url('fonts/icomoon.woff?2m2gqt') format('woff'),
+    url('fonts/icomoon.svg?2m2gqt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aid-kit:before {
+  content: "\e998";
+}
+.icon-google3:before {
+  content: "\ea8a";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-vimeo2:before {
+  content: "\eaa1";
+}
+.icon-steam2:before {
+  content: "\eaad";
+}
+.icon-blogger2:before {
+  content: "\eab8";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-windows:before {
+  content: "\eac1";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}
+.icon-paypal:before {
+  content: "\ead8";
+}
+.icon-firefox:before {
+  content: "\eada";
+}
